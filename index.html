@@ -1,40 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br ">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noir Caffe - Página Inicial</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Estilo CSS -->
+    <title>Noir Caffe</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Noir Caffe</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="perfil.html">Meu Perfil</a></li>
-                <li><a href="logout.html">Sair</a></li>
-            </ul>
-        </nav>
+            <div class= "mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+        <a class="logo">Noir Caffe</a>
+    <ul class="nav-list">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">sobre</a></li>
+        <li><a href="">contatos</a></li>
+        <li><a href="">projetos</a></li>
+    </ul>
+    </nav>
     </header>
+    <main></main>
+    <script src="mobile-navbar.js"></script>
 
-    <main>
-        <section id="feed" role="feed">
-            <!-- Lista de postagens -->
-            <article class="post">
-                <header>
-                    <h2>Postagem de Usuário</h2>
-                </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in leo vel ante luctus commodo.</p>
-                <footer>
-                    <p>Postado por <strong>Nome do Usuário</strong> em <time datetime="2024-08-02">2 de Agosto de 2024</time></p>
-                </footer>
-            </article>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Noir Caffe. Todos os direitos reservados.</p>
-    </footer>
 </body>
 </html>
