@@ -2,8 +2,12 @@ const produtos = [
     { id: 1, nome: "Café Expresso", preco: 10.00, imagem: "caminho/para/imagem1.jpg" },
     { id: 2, nome: "Café Latte", preco: 12.50, imagem: "caminho/para/imagem2.jpg" },
     { id: 3, nome: "Café Mocha", preco: 13.00, imagem: "caminho/para/imagem3.jpg" },
-    { id: 4, nome: "Café Americano", preco: 9.00, imagem: "caminho/para/imagem4.jpg" }
-];
+    { id: 4, nome: "Café Americano", preco: 9.00, imagem: "caminho/para/imagem4.jpg" },
+    { id: 5, nome: "Capuccino", preco: 11.00,imagem: "caminho/para/imagem1.jpg" },
+    { id: 6, nome: "Latte Machiatto", preco: 14.00,imagem: "caminho/para/imagem1.jpg" },
+    { id: 7, nome: "frapuccino", preco: 18.00,imagem: "caminho/para/imagem1.jpg" },
+
+]
 
 const carrinho = [];
 
