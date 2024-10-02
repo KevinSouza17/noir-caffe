@@ -5,7 +5,7 @@ const produtos = [
     { id: 4, nome: "Café Americano", preco: 9.00, imagem: "caminho/para/imagem4.jpg" },
     { id: 5, nome: "Capuccino", preco: 11.00,imagem: "caminho/para/imagem1.jpg" },
     { id: 6, nome: "Latte Machiatto", preco: 14.00,imagem: "caminho/para/imagem1.jpg" },
-    { id: 7, nome: "frapuccino", preco: 18.00,imagem: "caminho/para/imagem1.jpg" },
+    { id: 7, nome: "frapuccino", preco: 18.00,imagem: "caminho/para/imagem1.jpg" }
 
 ]
 
